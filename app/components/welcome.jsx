@@ -46,7 +46,7 @@ export default function Welcome() {
       <div
         id="movable-container"
         onMouseDown={handleMouseDown}
-        className="w-150 h-100 rounded-md bg-[#FBF2D8] select-none fixed border-2"
+        className="w-200 h-120 rounded-md bg-[#FBF2D8] select-none fixed border-2"
         style={{
           top: `${position.y}px`,
           left: `${position.x}px`,

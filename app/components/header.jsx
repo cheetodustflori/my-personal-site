@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <div className="border w-fit sm:w-100 flex flex-col text-4xl font-bold items-center  justify-center">
+      <div className="w-fit h-full sm:w-100 flex flex-col text-4xl font-bold items-center  justify-center">
         <ul className="flex flex-col gap-10">
           <li>
             <Link className="active:relative active:top-px" href="/about">

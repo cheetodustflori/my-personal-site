@@ -12,14 +12,14 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link className="active:relative active:top-px" href="/projectsPage">
-              <img src="folder.png" className="w-30"/>
+            <Link className="active:relative active:top-px" href="/projects">
+              <img src="/folder.png" className="w-30"/>
               <p className="text-center">Projects</p>
             </Link>
           </li>
           <li>
             <Link className="active:relative active:top-px" href="/apply">
-              <img src="folder.png" className="w-30"/>
+              <img src="/folder.png" className="w-30"/>
               <p className="text-center">Apply</p>
             </Link>
           </li>

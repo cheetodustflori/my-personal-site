@@ -1,5 +1,6 @@
 import React from 'react';
-import Hero from "../../components/sections/hero";
+// import Hero from "../../components/sections/hero";
+import NavBar from "../../components/navbar"
 import { spring2026Projects } from "../../data/spring2026";
 
 export default async function ProjectsSlug({ params }) {
@@ -8,7 +9,8 @@ export default async function ProjectsSlug({ params }) {
   
   return (
     <div className="flex flex-col bg-[#F8E0D8] min-h-screen pb-20">
-      <Hero />
+      {/* <Hero /> */}
+      <NavBar/>
       <section className="flex flex-col items-center mt-15 gap-10">
         <h1 className="font-bold text-4xl text-[#BB868E] uppercase">
           {isSpring2026 ? "Spring 2026 Projects" : `${resolvedParams.slug} Projects`}

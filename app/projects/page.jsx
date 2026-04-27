@@ -1,11 +1,12 @@
 import React from 'react';
-import Hero from "../components/sections/hero";
+import NavBar from '../components/navbar';
 import Link from 'next/link';
 
 export default function ProjectsPage() {
   return (
     <div className="flex flex-col bg-[#F8E0D8] min-h-screen">
-      <Hero />
+      {/* <Hero /> */}
+      <NavBar/>
       <section className="flex flex-col items-center mt-15 mb-20 gap-10">
         <h1 className="font-bold text-4xl text-[#BB868E]">PROJECTS</h1>
         <div className="flex flex-wrap justify-center gap-5">

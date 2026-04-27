@@ -7,13 +7,13 @@ export default function footer(){
             <div className="flex items-center h-full gap-5">
                 <p className="font-bold">Let's build great things.</p>
             <p>Built by Zeel and Flori.</p>
-            <Link href="#"><img src="github.svg"/></Link>
+            <Link href="#"><img src="/github.svg"/></Link>
             <p className="italic">est. 2024</p>
             </div>
             
 
-            <img src="../fence.png" className=""/>
-            <img src="../rabbit.png" className=""/>
+            <img src="/fence.png" className=""/>
+            <img src="/rabbit.png" className=""/>
         </div>
     )
 }

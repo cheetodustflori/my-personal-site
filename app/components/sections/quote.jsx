@@ -1,5 +1,4 @@
 "use client"
-import { motion } from "framer-motion";
 import ProjectCard from "../projectCard.jsx";
 import {useState} from "react";
 
@@ -40,16 +39,11 @@ export default function quote() {
                 <p>Alan Kay</p>
             </div>
 
-            <div id="slideshow-container">
-                <div id="slideshow-image">
-                    
-                        <ProjectCard color={images[nextIndex]}/>
-                    
-                    
-                </div>
-                <div>
-                    <button onClick={handleBackwardClick}>back</button>
-                    <button onClick={handleForwardClick}>forward</button>
+            <div id="slideshow-container ">
+                <div id="slideshow-image" className="flex gap-3">
+                    <button className="cursor-pointer" onClick={handleBackwardClick}><img src="back.svg" width="20px"/></button>
+                    <ProjectCard color={images[nextIndex]}/>
+                    <button className="cursor-pointer"  onClick={handleForwardClick}><img src="forward.svg" width="20px"/></button>
                 </div>
             </div>
             

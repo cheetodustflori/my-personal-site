@@ -15,7 +15,7 @@ This is about our website. This is about our website. This is about our website.
 This is about our website. This is about our website. This is about our website. This is about our website. This is about our website.</p>
             </div>
 
-        <img src="../fence.png" className="absolute left-3.75  -bottom-162.5"/>
+        <img src="/fence.png" className="absolute left-3.75  -bottom-162.5"/>
         </section>
     )
 }

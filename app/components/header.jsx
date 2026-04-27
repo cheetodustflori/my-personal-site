@@ -7,19 +7,19 @@ export default function Header() {
         <ul className="flex flex-col gap-10">
           <li>
             <Link className="active:relative active:top-px" href="/about">
-              <img src="folder.png" className="w-30"/>
+              <img src="/folder.png" className="w-30"/>
               <p className="text-center">About</p>
             </Link>
           </li>
           <li>
             <Link className="active:relative active:top-px" href="/projects">
-              <img src="folder.png" className="w-30"/>
+              <img src="/folder.png" className="w-30"/>
               <p className="text-center">Projects</p>
             </Link>
           </li>
           <li>
             <Link className="active:relative active:top-px" href="#">
-              <img src="folder.png" className="w-30"/>
+              <img src="/folder.png" className="w-30"/>
               <p className="text-center">Apply</p>
             </Link>
           </li>
